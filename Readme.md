@@ -8,6 +8,8 @@ I also threw in a command I've had in my personal [SublimeTect](https://github.c
 
 ## How to use
 
+First `git clone` this repository into your Sublime `Packages` folder. You can get to this using the `Preferences > Browse Packages` menu item.
+
 Folding short `if` statements in Go files on load is enabled by default but if you write your own if statements and want them folded, or want to toggle folding, you need to bind keyboard shortcuts of your choice to the folding commands. You can do this by using the "Preferences > Key Bindings" menu item to open your key bindings file and adding lines like these but with your choice of shortcut:
 
 ```js
